@@ -1,0 +1,26 @@
+.navbar-success{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  height: 100px;
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.container a{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container a:hover{
+  color: #fff;
+}
