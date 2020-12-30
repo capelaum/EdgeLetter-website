@@ -259,8 +259,13 @@
           <div class="column">
             <div class="column-2 bg-light">
               <h2>Request Callback</h2>
-              <form action="./contact/process.php" method="POST" class="callback-form">
-
+              <form
+                action="./contact/process.php"
+                name="contact"
+                method="POST"
+                class="callback-form"
+                data-netlify="true"
+              >
                 <div class="form-control">
                   <label for="name"></label>
                   <input
@@ -288,7 +293,12 @@
                     placeholder="Enter phone"
                   />
                 </div>
-                <input type="submit" value="Send" id="submit" class="btn-submit" />
+                <input
+                  type="submit"
+                  value="Send"
+                  id="submit"
+                  class="btn-submit"
+                />
               </form>
             </div>
           </div>
@@ -298,10 +308,20 @@
 
     <footer class="footer bg-dark">
       <div class="social">
-        <a href="https://www.linkedin.com/in/luis-capelletto" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="http://github.com/capelaum" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <a href="http://instagram.com/capelletto.lv" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="https://www.youtube.com/channel/UCp19yL0P1Kq04Pf_HyYkYfg" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/luis-capelletto" target="_blank"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <a href="http://github.com/capelaum" target="_blank"
+          ><i class="fab fa-github fa-2x"></i
+        ></a>
+        <a href="http://instagram.com/capelletto.lv" target="_blank"
+          ><i class="fab fa-instagram fa-2x"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCp19yL0P1Kq04Pf_HyYkYfg"
+          target="_blank"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
       </div>
       <p>Copyright &copy; 2020 - EdgeLedger</p>
     </footer>
